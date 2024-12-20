@@ -1,0 +1,1 @@
+In React Router Dom v6, attempting to access the `useLocation` hook outside of a component's functional scope will result in unexpected behavior or errors.  The hook relies on the component's render cycle to update the location state correctly.
